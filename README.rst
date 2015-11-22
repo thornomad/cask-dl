@@ -13,7 +13,7 @@ cask-dl
         :alt: Documentation Status
 
 
-Command-line application to easily download the installation files for Homebrew Cask applications."
+Command-line application to easily download the installation files for Homebrew Cask applications.
 
 * Free software: ISC license
 * Documentation: https://cask-dl.readthedocs.org.

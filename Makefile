@@ -46,7 +46,7 @@ clean-test:
 	rm -fr htmlcov/
 
 lint:
-	flake8 cask-dl tests
+	flake8 cask_dl tests
 
 test:
 	python setup.py test
@@ -55,15 +55,15 @@ test-all:
 	tox
 
 coverage:
-	coverage run --source cask-dl setup.py test
+	coverage run --source cask_dl setup.py test
 	coverage report -m
 	coverage html
 	$(BROWSER) htmlcov/index.html
 
 docs:
-	rm -f docs/cask-dl.rst
+	rm -f docs/cask_dl.rst
 	rm -f docs/modules.rst
-	sphinx-apidoc -o docs/ cask-dl
+	sphinx-apidoc -o docs/ cask_dl
 	$(MAKE) -C docs clean
 	$(MAKE) -C docs html
 	$(BROWSER) docs/_build/html/index.html

@@ -23,18 +23,18 @@ test_requirements = [
 ]
 
 setup(
-    name='cask-dl',
+    name='cask_dl',
     version='0.1.0',
-    description="Command-line application to easily download the installation files for Homebrew Cask applications."",
+    description="Command-line application to easily download the installation files for Homebrew Cask applications.",
     long_description=readme + '\n\n' + history,
     author="Damon Timm",
     author_email='damontimm@gmail.com',
     url='https://github.com/thornomad/cask-dl',
     packages=[
-        'cask-dl',
+        'cask_dl',
     ],
-    package_dir={'cask-dl':
-                 'cask-dl'},
+    package_dir={'cask_dl':
+                 'cask_dl'},
     include_package_data=True,
     install_requires=requirements,
     license="ISCL",

@@ -10,10 +10,10 @@ Tests for `cask-dl` module.
 
 import unittest
 
-from cask-dl import cask-dl
+# from cask_dl import cask_dl
 
 
-class TestCask-dl(unittest.TestCase):
+class TestCaskDl(unittest.TestCase):
 
     def setUp(self):
         pass

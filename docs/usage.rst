@@ -4,4 +4,4 @@ Usage
 
 To use cask-dl in a project::
 
-    import cask-dl
+    import cask_dl
